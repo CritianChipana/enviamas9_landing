@@ -1,0 +1,22 @@
+
+@media (max-width: 600px) {
+    .omnicanalidad{
+        margin-top: 55px;
+    }
+}
+
+@media (max-width: 376px) {
+    .omnicanalidad{
+        margin-top: 20px;
+    }
+
+    .btn-web{
+        display: none;
+    }
+
+    .btn-movil{
+        display: flex;
+        padding-bottom: 40px;
+    }
+
+}
