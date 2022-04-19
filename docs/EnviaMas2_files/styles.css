@@ -10455,3 +10455,10 @@ form .row:first-child .floating-label-form-group {
     top:43rem;
   }
 }
+
+@media (max-width: 320px) {
+
+  .carousel-indicator2{
+    top:41rem;
+  }
+}
