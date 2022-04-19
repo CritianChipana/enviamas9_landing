@@ -10420,8 +10420,12 @@ form .row:first-child .floating-label-form-group {
   .soporte{
     margin-top: 35px;
   }
-  .carousel-indicator2{
+  /* .carousel-indicator2{
     top:46rem;
+  } */
+
+  .carousel-indicator2{
+    top:47.5rem;
   }
 }
 
@@ -10433,6 +10437,9 @@ form .row:first-child .floating-label-form-group {
   
   .sms2:nth-of-type(2) p {
     line-height: 1.88rem;
+  }
+  .carousel-indicator2{
+    top:46rem;
   }
 
  
