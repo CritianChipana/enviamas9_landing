@@ -10325,7 +10325,7 @@ form .row:first-child .floating-label-form-group {
     width: 100%;
   }
   .sms:nth-of-type(2) p {
-    line-height: 27px;
+    line-height: 1.88rem;
   }
 
   .sms:nth-of-type(3){
@@ -10353,7 +10353,7 @@ form .row:first-child .floating-label-form-group {
   }
 
   .sms2:nth-of-type(2) p {
-    line-height: 27px;
+    line-height: 1.88rem;
   }
 
   .sms2:nth-of-type(3){
