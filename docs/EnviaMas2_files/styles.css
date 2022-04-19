@@ -10420,6 +10420,9 @@ form .row:first-child .floating-label-form-group {
   .soporte{
     margin-top: 35px;
   }
+  .carousel-indicators{
+    top: 0;
+  }
 }
 
 @media (max-width: 420px) {
