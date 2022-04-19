@@ -10279,7 +10279,7 @@ form .row:first-child .floating-label-form-group {
 
 
 
-@media (max-width: 420px) {
+@media (max-width: 481px) {
   /* .omnicanalidad{
       margin-top: 20px;
   }
@@ -10325,7 +10325,7 @@ form .row:first-child .floating-label-form-group {
     width: 100%;
   }
   .sms:nth-of-type(2) p {
-    line-height: 1.88rem;
+    line-height: 2.8rem;
   }
 
   .sms:nth-of-type(3){
@@ -10353,7 +10353,7 @@ form .row:first-child .floating-label-form-group {
   }
 
   .sms2:nth-of-type(2) p {
-    line-height: 1.88rem;
+    line-height: 2.8rem;
   }
 
   .sms2:nth-of-type(3){
@@ -10377,6 +10377,16 @@ form .row:first-child .floating-label-form-group {
 
 }
 
+@media (max-width: 420px) {
+
+  .sms:nth-of-type(2) p {
+    line-height: 1.88rem;
+  }
+  
+  .sms2:nth-of-type(2) p {
+    line-height: 1.88rem;
+  }
+}
 
 @media (max-width: 340px) {
   
