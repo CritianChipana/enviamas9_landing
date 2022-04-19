@@ -10371,9 +10371,18 @@ form .row:first-child .floating-label-form-group {
   .carousel-indicator2{
     top: 68rem;
   }
+}
 
+@media (max-width: 768px) {
+  .carousel-indicator2{
+    top: 66rem;
+  }
+}
 
-
+@media (max-width: 600px) {
+  .carousel-indicator2{
+    top: 57rem;
+  }
 }
 
 @media (max-width: 480px) {
