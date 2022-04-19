@@ -10456,7 +10456,7 @@ form .row:first-child .floating-label-form-group {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
 
   .carousel-indicator2{
     top:41rem;
