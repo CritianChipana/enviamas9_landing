@@ -10279,26 +10279,22 @@ form .row:first-child .floating-label-form-group {
 
 
 
-@media (max-width: 481px) {
-  /* .omnicanalidad{
-      margin-top: 20px;
-  }
-  .contenedor-sms{
-      position: relative;
-      border: 1px solid black;
-      flex-direction: row;
-  } */
+@media (max-width: 993px) {
 
   .sms-caract-container {
     display: flex;
     flex-direction: row;
     gap: 20px;
     position: absolute;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 
   .sms-caract-descrip{
-    font-size: 0.7rem;
+    font-size: 1.2rem;
+  }
+
+  .description-bannertext-muted{
+    font-size: 1.6rem;
   }
 
   .contenet-campaign{
@@ -10316,7 +10312,7 @@ form .row:first-child .floating-label-form-group {
   }
 
   .sms:nth-of-type(2){
-    top: 2.188rem;
+    top: 0;
     /* right: 1rem;
     width: 12.5rem;
     text-align: left; */
@@ -10325,7 +10321,7 @@ form .row:first-child .floating-label-form-group {
     width: 100%;
   }
   .sms:nth-of-type(2) p {
-    line-height: 2.8rem;
+    line-height: 5.8rem;
   }
 
   .sms:nth-of-type(3){
@@ -10345,7 +10341,7 @@ form .row:first-child .floating-label-form-group {
 
   .sms2:nth-of-type(2){
     /* position: absolute; */
-    bottom: 4.375rem;
+    bottom: 6.375rem;
     /* right: 1.125rem; */
     /* width: 12.5rem; */
     text-align: center;
@@ -10353,7 +10349,7 @@ form .row:first-child .floating-label-form-group {
   }
 
   .sms2:nth-of-type(2) p {
-    line-height: 2.8rem;
+    line-height: 5.9rem;
   }
 
   .sms2:nth-of-type(3){
@@ -10371,10 +10367,41 @@ form .row:first-child .floating-label-form-group {
     /* padding: 1.5rem; */
   }
 
+
+
+}
+
+@media (max-width: 480px) {
+
+  .sms2:nth-of-type(2) p {
+    line-height: 2.8rem;
+  }
+
+  .sms:nth-of-type(2){
+    top: 2.188rem;
+    /* right: 1rem;
+    width: 12.5rem;
+    text-align: left; */
+
+    text-align: center;
+    width: 100%;
+  }
+
+  .sms-caract-container {
+    font-size: 0.8rem;
+  }
+
+  .sms-caract-descrip{
+    font-size: 0.7rem;
+  }
+
   .title-banner{
     font-size: 1.82rem;
   }
 
+  .soporte{
+    margin-top: 35px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -10386,6 +10413,8 @@ form .row:first-child .floating-label-form-group {
   .sms2:nth-of-type(2) p {
     line-height: 1.88rem;
   }
+
+ 
 }
 
 @media (max-width: 340px) {
@@ -10396,5 +10425,8 @@ form .row:first-child .floating-label-form-group {
 
   .sms-caract-descrip{
     font-size: 0.55rem;
+  }
+  .title-banner{
+    font-size: 1.4rem;
   }
 }
