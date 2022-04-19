@@ -10450,4 +10450,8 @@ form .row:first-child .floating-label-form-group {
   .title-banner{
     font-size: 1.4rem;
   }
+
+  .carousel-indicator2{
+    top:43rem;
+  }
 }
