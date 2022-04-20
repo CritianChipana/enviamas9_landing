@@ -10277,6 +10277,9 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a252f;
 }
 
+.height-img{
+  height: 80vh;
+}
 
 
 @media (max-width: 993px) {
@@ -10385,15 +10388,28 @@ form .row:first-child .floating-label-form-group {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 481px) {
 
+  .masthead{
+    padding: 0;
+  }
 
+  .height-img{
+    height: 50vh;
+  }
+  .page-section{
+    box-sizing: content-box;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .portfolio-grid-items{
+    margin-bottom: 0;
+  }
+
+  /**************************************/
   .sms:nth-of-type(2){
     top: 4.188rem;
-    /* right: 1rem;
-    width: 12.5rem;
-    text-align: left; */
-
     text-align: center;
     width: 100%;
   }
