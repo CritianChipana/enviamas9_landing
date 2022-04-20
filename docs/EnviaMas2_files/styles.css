@@ -10391,7 +10391,8 @@ form .row:first-child .floating-label-form-group {
 @media (max-width: 481px) {
 
   .masthead{
-    padding: 0;
+    padding-bottom: 2.4rem;
+    padding-top: 2.4rem;
   }
 
   .height-img{
