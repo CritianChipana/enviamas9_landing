@@ -10410,13 +10410,17 @@ form .row:first-child .floating-label-form-group {
 
   /**************************************/
   .sms:nth-of-type(2){
-    top: 4.188rem;
+    top: 0;
     text-align: center;
     width: 100%;
   }
 
-  .sms:nth-of-type(2){
-    top: 0;
+  .sms:nth-of-type(2) p{
+    line-height: 2.8rem;
+  }
+
+  .sms2:nth-of-type(2){
+    bottom: 3rem;
     text-align: center;
     width: 100%;
   }
@@ -10425,11 +10429,6 @@ form .row:first-child .floating-label-form-group {
     line-height: 2.8rem;
   }
 
-  .sms2:nth-of-type(2){
-    bottom: 1.575rem;
-    text-align: center;
-    width: 100%;
-  }
 
   .sms-caract-container {
     font-size: 0.8rem;
